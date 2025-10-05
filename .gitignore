@@ -1,0 +1,7 @@
+Reports/
+__pycache__/
+*.log
+*.pyc
+*.png
+*.mp4
+.allure/*

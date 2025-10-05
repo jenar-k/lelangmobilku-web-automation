@@ -1,0 +1,2 @@
+profile_saya: //a[text()=" Profil Saya "]
+data_pribadi: //h2[text()="Data Pribadi"]

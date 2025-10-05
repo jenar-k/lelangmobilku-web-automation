@@ -1,0 +1,9 @@
+email_field: //input[@name='email' or @type='email']
+password_field: //input[@name='password' or @type='password']
+login_button: //button[contains(.,'Masuk') or contains(.,'Login')]
+Login_header: //h1[text()="Selamat Datang"]
+captcha_field: (//div[@role="presentation"])[1]
+syarat_dan_ketentuan: //input[@id="remember_me"]
+valid_email: jenartest1@yopmail.com
+valid_password: jenar123
+daftar_akun_button: //a[text()="Daftar Sekarang"]

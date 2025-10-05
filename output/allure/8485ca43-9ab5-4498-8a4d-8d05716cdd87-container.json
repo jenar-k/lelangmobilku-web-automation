@@ -1,0 +1,1 @@
+{"uuid": "e8d701e4-298b-457c-89b5-8c75863afc07", "children": ["70852290-ace8-40d2-a5cc-30a16060b39c"], "afters": [{"name": "SeleniumLibrary.Close Browser", "status": "passed", "statusDetails": {"message": "The element '//*[text()=\"Info Nomor Rekening\"]' should be visible, but it is not."}, "stop": 1759650381902}]}

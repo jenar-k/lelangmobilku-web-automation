@@ -1,0 +1,2 @@
+menu_deposit: //a[text()="Deposit"]
+deposit_page_title: //h2[text()="Deposit"]

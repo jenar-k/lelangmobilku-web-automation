@@ -1,0 +1,7 @@
+nomor_rekening_field: //input[@placeholder="Nomor Rekening"]
+sumber_dana_option: //input[@aria-placeholder="Pilih Sumber Tabungan"]
+bank_option: //input[@aria-placeholder="Pilih Bank"]
+metode_pembayaran_option: //input[@aria-placeholder="Pilih Metode Pembayaran"]
+nama_pemilik_field: //input[@placeholder="Nama Pemilik Rekening"]
+daftar_button: //button[text()="Daftar"]
+data_pembayaran_information: //*[text()="Info Nomor Rekening"]
