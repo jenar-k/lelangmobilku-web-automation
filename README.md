@@ -67,3 +67,13 @@ robot --listener allure_robotframework Tests
 ---
 
 ## 📊 Example Allure Report Sections
+![Allure Report on Dashboard](https://drive.google.com/uc?export=view&id=1KIR0nFZrY8UjSWG3lpu2-IjX2UUKOtQB)
+![Allure Report on Suites](https://drive.google.com/uc?export=view&id=13nVgkFsn6W6XY8f8aqBqzy4ZoC_-Hffu)
+
+
+## 👨‍💻 Author
+
+Jenar Kuswidiardi
+Quality Assurance Engineer | Automation Enthusiast
+📧 [jenarkuswidiardi@gmail.com]
+💼 [https://www.linkedin.com/in/jenar-kuswidiardi/]
