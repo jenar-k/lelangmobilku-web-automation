@@ -1,14 +1,69 @@
-# lelangmobilku-web-automation
+Automated UI testing project for **LelangMobilku** website built with **Robot Framework + SeleniumLibrary**.
 
-Automation template using **Robot Framework + SeleniumLibrary** with **Allure Report** and **GitHub Actions (Windows)**.
+---
+
+## 🚀 Overview
+
+This project automates the main web flows of the [LelangMobilku](https://auction.lelangmobilku.co.id/) application including:
+
+- ✅ Register new user  
+- ✅ Login with valid credentials  
+- ✅ Navigate to Deposit page  
+- ✅ Verify UI components and form validations  
+
+The goal of this project is to ensure core functionalities of LelangMobilku are tested in a **modular, reusable, and maintainable** way.
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools |
+|-----------|-------|
+| Test Framework | [Robot Framework](https://robotframework.org/) |
+| Browser Automation | [SeleniumLibrary](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html) |
+| Data Generator | [FakerLibrary](https://marketsquare.github.io/robotframework-faker/) |
+| Desktop Automation | [RPA.Desktop](https://rpaframework.org/) |
+| Reporting | [Allure Report](https://docs.qameta.io/allure/) |
+| CI/CD | [GitHub Actions](https://github.com/features/actions) |
+
+---
 
 ## Quickstart
 
+### A. Clone the repo
 ```bash
-pip install -r requirements.txt
-robot --listener allure_robotframework;ALLURE_RESULTS_DIR=Reports/allure Tests/
-# To view the report:
-# allure serve Reports/allure
+git clone https://github.com/jenar-k/lelangmobilku-web-automation.git
 ```
 
-> Update the locators in `Resources/Locators/*.yaml` to match the real site.
+### B. Installing requirements or dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### C. Run Test Locally
+```bash
+set ALLURE_RESULTS_DIR=Reports\allure && robot --listener allure_robotframework Tests
+
+```
+
+### D. Generate Allure Reports
+```bash
+allure serve output/allure
+```
+
+---
+## 🧩 Example Commands
+
+### A. Run single test file:
+  ```bash
+  robot Tests/login_test.robot
+  ```
+
+### B. Run all test:
+```bash
+robot --listener allure_robotframework Tests
+```
+
+---
+
+## 📊 Example Allure Report Sections
